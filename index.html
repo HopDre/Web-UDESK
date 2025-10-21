@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>U-DESK</title>
+<!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="/styles/styles.css" type="text/css">
+</head>
+<body>
+    <section class="header-hero">
+<header id="header">
+  <div class="header-container">
+    <div class="header-inner">
+      <div class="logo">
+        <a href="index.html"><img src="/assets/imgs-index/Logo UDESK.png" alt="Logo UDESK"></a>
+      </div>
+      <nav>
+        <ul>
+          <li class="dropdown">
+            <a id="productsBtn">
+              Productos
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="transition: transform 0.2s">
+                <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <div class="dropdown-content">
+              <div class="dropdown-grid">
+                <div class="dropdown-column">
+                  <h4>Productos comerciales</h4>
+                  <a href="#">
+                    <div class="dropdown-icon"><i class="fa-solid fa-tooth color-dd"></i></div>
+                    <div class="dropdown-text">
+                      <strong class="color-dd">DENTIDESK</strong>
+                      <span>Lorem ipsum dolor sit amet consectetur</span>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="dropdown-icon"><i class="fa-solid fa-suitcase-medical color-md"></i></div>
+                    <div class="dropdown-text">
+                      <strong class="color-md">MEDICALDESK</strong>
+                      <span>Lorem ipsum dolor sit amet consectetur</span>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="dropdown-icon"><i class="fa-solid fa-shield-dog color-vd"></i></div>
+                    <div class="dropdown-text">
+                      <strong class="color-vd">VETDESK</strong>
+                      <span>Lorem ipsum dolor sit amet consectetur</span>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="dropdown-icon"><i class="fa-solid fa-phone color-cd"></i></div>
+                    <div class="dropdown-text">
+                      <strong class="color-cd">CALDESK</strong>
+                      <span>Lorem ipsum dolor sit amet consectetur</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="dropdown-column">
+                  <h4>Productos institucionales</h4>
+                  <a href="#">
+                    <div class="dropdown-icon"><i class="fa-solid fa-school color-dda"></i></div>
+                    <div class="dropdown-text">
+                      <strong class="color-dda">DENTIDESK Académico</strong>
+                      <span>Lorem ipsum dolor sit amet consectetur</span>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="dropdown-icon"><i class="fa-solid fa-building-columns color-md"></i></div>
+                    <div class="dropdown-text">
+                      <strong class="color-md">MEDICALDESK Académico</strong>
+                      <span>Lorem ipsum dolor sit amet consectetur</span>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="dropdown-icon"><i class="fa-solid fa-shield-cat color-vd"></i></div>
+                    <div class="dropdown-text">
+                      <strong class="color-vd">VETDESK Académico</strong>
+                      <span>Lorem ipsum dolor sit amet consectetur</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="dropdown-column">
+                  <h4>Integraciones</h4>
+                  <a href="#">
+                    <div class="dropdown-icon"><i class="fa-solid fa-globe color-cd"></i></div>
+                    <div class="dropdown-text">
+                      <strong class="color-cd">APIS</strong>
+                      <span>Lorem ipsum dolor sit amet consectetur</span>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="dropdown-icon"><i class="fa-solid fa-hand-holding-dollar color-int"></i></div>
+                    <div class="dropdown-text">
+                      <strong class="color-int">Servicio de impuestos internos</strong>
+                      <span>Lorem ipsum dolor sit amet consectetur</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Noticias</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="actions">
+        <button class="icon-btn" id="langBtn" title="Idioma">🌐</button>
+        <button class="icon-btn" id="themeBtn" title="Tema">🌙</button>
+        <button class="btn-primary">Contáctanos aquí</button>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="hero">
+    <p>Gestiona todos tus procesos de manera </p>
+    <h1>simple y eficiente</h1>
+    <a href="#">Solicita tu demo <i class="fa-solid fa-circle-right"></i></a>
+      <div class="hero-image">
+      <img src="/assets/imgs-index/interfaz computador.png" alt="Computador">
+      <div class="logo-container">
+        <img src="/assets/imgs-index/logos-hero/caldesk.png" alt="Logo 1" class="active">
+        <img src="/assets/imgs-index/logos-hero/dentidesk.png" alt="Logo 2">
+        <img src="/assets/imgs-index/logos-hero/logo sin fondo 1.png" alt="Logo 3">
+        <img src="/assets/imgs-index/logos-hero/medicaldesk.png" alt="Logo 4">
+        <img src="/assets/imgs-index/logos-hero/Logo-DD-Academico 1.png" alt="Logo 5">
+        <img src="/assets/imgs-index/logos-hero/Recurso 1 3.png" alt="Logo 6">
+        <img src="/assets/imgs-index/logos-hero/Recurso 1 4.png" alt="Logo 7">
+        <img src="/assets/imgs-index/Logo UDESK.png" alt="Logo final">
+      </div>
+    </div>
+</div>
+</section>
+<section class="section-dos">
+  <div class="sec-dos-logos-comerciales">
+    <img src="/assets/logos blancos/dentidesk-blanco.png" alt="">
+    <img src="/assets/logos blancos/medicaldesk-blanco.png" alt="">
+    <img src="/assets/logos blancos/vetdesk-blanco.png" alt="">
+    <img src="/assets/logos blancos/caldesk-blanco.png" alt="">
+  </div>
+  <div class="sec-dos-resumen" data-aos="fade-left" data-aos-duration="1000">
+    <div class="sec-dos-resumen-left">
+      <h2>Experiencia que se transforma en soluciones</h2>
+    </div>
+    <div class="sec-dos-resumen-right">
+      <p>U-DESK cuenta con <strong class="color-cd">más de 25 años de experiencia</strong> integrando administración, tecnología y salud. <br><br>
+        Lo que inició como un servicio dental, hoy es una <strong class="color-cd">plataforma integral de gestión presente en más de 18 países,</strong>
+        con soluciones para el ámbito dental, médico, académico, de agendamiento y veterinario. <br><br>
+        Su principal fortaleza es la <strong class="color-cd">cercanía con los clientes,</strong> adaptando herramientas que impulsan el crecimiento y la eficiencia de cada institución.</p>
+    </div>
+  </div>
+</section>
+<section class="section-tres">
+
+    <div class="sec-tres-right deg-dd" data-aos="fade-right" data-aos-duration="1000">
+      <div class="sec-tres-prod-left fondo-dd">
+        <div class="sec-tres-prod-left-textos">
+          <h4>La evolución digital odontológica</h4>
+          <p>Lorem ipsum dolor sit amet consectetur. Tincidunt bibendum odio malesuada bibendum in laoreet ut quis molestie.</p>
+        </div>
+      </div>
+      <div class="sec-tres-prod-right">
+        <img src="/assets/imgs-index/logos-hero/dentidesk.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur. Tincidunt bibendum odio malesuada bibendum in laoreet ut quis molestie. 
+          Congue nunc cursus volutpat augue. Sit diam nec dis sed eget sagittis tempus quam sed. Turpis facilisis at tellus odio suspendisse 
+          tempor ut nibh.Lorem ipsum dolor sit amet consectetur. <br><br>
+          Tincidunt bibendum odio malesuada bibendum in laoreet ut quis molestie. Congue nunc cursus volutpat augue. 
+          Sit diam nec dis sed eget sagittis tempus quam sed. Turpis facilisis at tellus odio suspendisse tempor ut nibh.</p>
+          <a href="#" class="btn-dd">Conoce DENTIDESK</a>
+      </div>
+    </div>
+
+    <div class="sec-tres-right deg-md" data-aos="fade-left" data-aos-duration="1000">
+      <div class="sec-tres-prod-right">
+        <img src="/assets/imgs-index/logos-hero/medicaldesk.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur. Tincidunt bibendum odio malesuada bibendum in laoreet ut quis molestie. 
+          Congue nunc cursus volutpat augue. Sit diam nec dis sed eget sagittis tempus quam sed. Turpis facilisis at tellus odio suspendisse 
+          tempor ut nibh.Lorem ipsum dolor sit amet consectetur. <br><br>
+          Tincidunt bibendum odio malesuada bibendum in laoreet ut quis molestie. Congue nunc cursus volutpat augue. 
+          Sit diam nec dis sed eget sagittis tempus quam sed. Turpis facilisis at tellus odio suspendisse tempor ut nibh.</p>
+          <a href="#" class="btn-md">Conoce MEDICALDESK</a>
+      </div>
+        <div class="sec-tres-prod-left fondo-md">
+        <div class="sec-tres-prod-left-textos">
+          <h4>Gestión médica en un solo lugar</h4>
+          <p>Lorem ipsum dolor sit amet consectetur. Tincidunt bibendum odio malesuada bibendum in laoreet ut quis molestie.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-tres-right deg-vd" data-aos="fade-right" data-aos-duration="1000">
+      <div class="sec-tres-prod-left fondo-vd">
+        <div class="sec-tres-prod-left-textos">
+          <h4>Organiza tu clínica, mejora el cuidado animal</h4>
+          <p>Lorem ipsum dolor sit amet consectetur. Tincidunt bibendum odio malesuada bibendum in laoreet ut quis molestie.</p>
+        </div>
+      </div>
+      <div class="sec-tres-prod-right">
+        <img src="/assets/imgs-index/logos-hero/logo sin fondo 1.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur. Tincidunt bibendum odio malesuada bibendum in laoreet ut quis molestie. 
+          Congue nunc cursus volutpat augue. Sit diam nec dis sed eget sagittis tempus quam sed. Turpis facilisis at tellus odio suspendisse 
+          tempor ut nibh.Lorem ipsum dolor sit amet consectetur. <br><br>
+          Tincidunt bibendum odio malesuada bibendum in laoreet ut quis molestie. Congue nunc cursus volutpat augue. 
+          Sit diam nec dis sed eget sagittis tempus quam sed. Turpis facilisis at tellus odio suspendisse tempor ut nibh.</p>
+          <a href="#" class="btn-vd">Conoce VETDESK</a>
+      </div>
+    </div>
+
+        <div class="sec-tres-right deg-cd" data-aos="fade-left" data-aos-duration="1000">
+      <div class="sec-tres-prod-right">
+        <img src="/assets/imgs-index/logos-hero/caldesk.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur. Tincidunt bibendum odio malesuada bibendum in laoreet ut quis molestie. 
+          Congue nunc cursus volutpat augue. Sit diam nec dis sed eget sagittis tempus quam sed. Turpis facilisis at tellus odio suspendisse 
+          tempor ut nibh.Lorem ipsum dolor sit amet consectetur. <br><br>
+          Tincidunt bibendum odio malesuada bibendum in laoreet ut quis molestie. Congue nunc cursus volutpat augue. 
+          Sit diam nec dis sed eget sagittis tempus quam sed. Turpis facilisis at tellus odio suspendisse tempor ut nibh.</p>
+          <a href="#" class="btn-cd">Conoce CALDESK</a>
+      </div>
+        <div class="sec-tres-prod-left fondo-cd">
+        <div class="sec-tres-prod-left-textos">
+          <h4>Más tiempo para tus clientes, menos en la gestión</h4>
+          <p>Lorem ipsum dolor sit amet consectetur. Tincidunt bibendum odio malesuada bibendum in laoreet ut quis molestie.</p>
+        </div>
+      </div>
+    </div>
+</section>
+<hr>
+<section class="section-cuatro">
+  <div class="section-cuatro-texto-superior">
+    <h3>Beneficios que marcan la diferencia</h3>
+    <p>Lorem ipsum dolor sit amet consectetur. Tincidunt bibendum odio malesuada bibendum in laoreet ut quis molestie. 
+      Congue nunc cursus volutpat augue. Sit diam nec dis sed eget sagittis tempus quam sed. 
+      Turpis facilisis at tellus odio suspendisse tempor ut nibh. Lorem ipsum dolor sit amet.</p>
+  </div>
+  <div class="section-cuatro-contenido-medio">
+    <div class="contenido-medio-elemento">
+      <img src="/assets/gifs/1.gif" alt="">
+      <h4>Eficiencia operativa</h4>
+      <p>Optimiza tiempos y elimina procesos manuales innecesarios.</p>
+    </div><div class="contenido-medio-elemento">
+      <img src="/assets/gifs/2.gif" alt="">
+      <h4>Eficiencia operativa</h4>
+      <p>Optimiza tiempos y elimina procesos manuales innecesarios.</p>
+    </div><div class="contenido-medio-elemento">
+      <img src="/assets/gifs/3.gif" alt="">
+      <h4>Eficiencia operativa</h4>
+      <p>Optimiza tiempos y elimina procesos manuales innecesarios.</p>
+    </div><div class="contenido-medio-elemento">
+      <img src="/assets/gifs/4.gif" alt="">
+      <h4>Eficiencia operativa</h4>
+      <p>Optimiza tiempos y elimina procesos manuales innecesarios.</p>
+    </div>
+  </div>
+  <div class="seccion-cuatro-contenido-inferior">
+    <div class="seccion-cuatro-contenido-inferior-left">
+      <img src="/assets/gifs/5.gif" alt="">
+      <h4>Eficiencia operativa</h4>
+      <p>Optimiza tiempos y elimina procesos manuales innecesarios.</p>
+    </div>
+    <div class="seccion-cuatro-contenido-inferior-right">
+      <p>Lorem ipsum dolor sit amet consectetur. Tincidunt bibendum odio malesuada bibendum in laoreet ut quis molestie. 
+        Congue nunc cursus volutpat augue.</p>
+        <a href="#">Solicita tu cuenta demo <i class="fa-solid fa-circle-right"></i></a>
+    </div>
+  </div>
+</section>
+<hr>
+<section class="section-cinco">
+  <div class="section-cinco-academico-uno">
+    <div class="academico-uno-left">
+      <h3>Transforma la enseñanza con tecnología de gestión académica</h3>
+      <p>Lorem ipsum dolor sit amet consectetur. Tincidunt bibendum odio malesuada bibendum in laoreet ut quis molestie. 
+        Congue nunc cursus volutpat augue. Sit diam nec dis sed eget sagittis tempus quam sed. Turpis facilisis at tellus 
+        odio suspendisse tempor ut nibh.Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="academico-uno-left-logos">
+          <img src="/assets/imgs-index/logos-hero/Logo-DD-Academico 1.png" alt="">
+          <img src="/assets/imgs-index/logos-hero/Recurso 1 3.png" alt="">
+          <img src="/assets/imgs-index/logos-hero/Recurso 1 4.png" alt="">
+        </div>
+    </div>
+    <div class="academico-uno-right" data-aos="fade-left" data-aos-duration="1000">
+      <img src="/assets/imgs-index/Macbook_Air_M2_Mockup_3 4.png" alt="">
+    </div>
+  </div>
+  <div class="section-cinco-contenedores">
+    <div class="section-cinco-contenedor" data-aos="fade-right" data-aos-duration="1000">
+      <img src="/assets/imgs-index/academico1.png" alt="">
+      <div class="section-cinco-contenido">
+        <img src="/assets/imgs-index/Logo blanco UDESK.png" alt="">
+        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur. Tincidunt bibendum 
+          odio malesuada bibendum in laoreet ut quis molestie. Congue nunc cursus volutpat augue. 
+          Sit diam nec dis sed eget sagittis tempus quam sed. </p>
+          <a href="#">Conoce más <i class="fa-solid fa-circle-right"></i></a>
+      </div>
+    </div>
+      <div class="section-cinco-contenedor" data-aos="fade-left" data-aos-duration="1000">
+        <div class="section-cinco-contenido contenido-med-academico">
+        <img src="/assets/imgs-index/Logo blanco UDESK.png" alt="">
+        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur. Tincidunt bibendum 
+          odio malesuada bibendum in laoreet ut quis molestie. Congue nunc cursus volutpat augue. 
+          Sit diam nec dis sed eget sagittis tempus quam sed. </p>
+          <a href="#">Conoce más <i class="fa-solid fa-circle-right"></i></a>
+      </div>
+      <img src="/assets/imgs-index/academico2.png" alt="">
+    </div>
+    <div class="section-cinco-contenedor" data-aos="fade-right" data-aos-duration="1000">
+      <img src="/assets/imgs-index/academico3.png" alt="">
+      <div class="section-cinco-contenido contenido-vet-academico">
+        <img src="/assets/imgs-index/Logo blanco UDESK.png" alt="">
+        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur. Tincidunt bibendum 
+          odio malesuada bibendum in laoreet ut quis molestie. Congue nunc cursus volutpat augue. 
+          Sit diam nec dis sed eget sagittis tempus quam sed. </p>
+          <a href="#">Conoce más <i class="fa-solid fa-circle-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+<section class="testimonials-section">
+        <div class="carousel-wrapper">
+            <div class="carousel-track" id="carouselTrack"></div>
+        </div>
+</section>
+<hr>
+<section class="section-final">
+  <h3>Compatibilidad que impulsa tu gestión</h3>
+  <div class="sec-dos-logos-comerciales logos-integraciones">
+    <img src="/assets/integraciones/api-blanco.png" alt="">
+    <img src="/assets/integraciones/brevo-blanco.png" alt="">
+    <img src="/assets/integraciones/nubox-blanco.png" alt="">
+    <img src="/assets/integraciones/square-blanco.png" alt="">
+    <img src="/assets/integraciones//webpay-blanco.png" alt="">
+  </div>
+  <div class="final-cta">
+    <div class="contenido-final-cta">
+      <h4>Da el siguiente paso con U-DESK</h4>
+      <p>Descubre cómo UDESK puede ayudarte a optimizar procesos y mejorar la experiencia de tus usuarios.</p>
+      <a href="#">Conoce nuestras soluciones <i class="fa-solid fa-circle-right"></i></a>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="columnas-footer">
+    <div class="columna-uno-footer">
+      <img src="/assets/imgs-index/Logo blanco UDESK.png" alt="">
+      <h4>Simplificamos tu administración, potenciamos tus resultados.</h4>
+      <div class="contactos">
+        <div class="contactos-icono"><i class="iconoir-whatsapp"></i><p>+56 9 758 81906</p></div>
+        <div class="contactos-icono"><i class="iconoir-mail"></i><p>contacto@dentidesk.com</p></div>
+        <div class="contactos-icono"><i class="iconoir-map-pin"></i><p>Avenida Apoquindo 2930, piso 2, oficina 201, Las Condes, Santiago de Chile.</p></div>
+      </div>
+    </div>
+    <div class="columna-dos-footer">
+      <h4>Nuestros productos</h4>
+      <div class="footer-comerciales">
+        <a href="#">DENTIDESK</a><a href="#">MEDICALDESK</a><a href="#">VETDESK</a><a href="#">CALDESK</a>
+      </div>
+      <div class="footer-academicos"><a href="#">DENTIDESK Académico</a><a href="#">MEDICALDESK Académico</a><a href="#">VETDESK Académico</a></div>
+    </div>
+    <div class="columna-tres-footer">
+      <h4>Nosotros</h4>
+      <div class="navegacion-footer">
+        <a href="#">Inicio</a><a href="#">Nosotros</a><a href="#">Noticias</a><a href="#">Contacto</a>
+      </div>
+    </div>
+    <div class="columna-cuatro-footer">
+      <h4>Suscríbete a nuestra Newsletter</h4>
+      <form action="">
+        <input type="text" placeholder="Nombre">
+        <input type="text" placeholder="ejemplo@gmail.com">
+        <button>Suscribirse</button>
+      </form>
+      <div class="redes-sociales-footer">
+        <a href="#"><i class="iconoir-facebook"></i></a>
+        <a href="#"><i class="iconoir-x"></i></a>
+        <a href="#"><i class="iconoir-instagram"></i></a>
+        <a href="#"><i class="iconoir-linkedin"></i></a>
+        <a href="#"><i class="iconoir-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="/scripts/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true
+  });
+</script>
+</body>
+</html>
