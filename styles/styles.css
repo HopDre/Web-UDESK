@@ -1022,15 +1022,17 @@
   float: right;
 }
 
-
-
+/* @media (max-width: 1024px) {
+  body{
+    background-color: #006397;
+  }
+} */
   /* =============================================== RESPONSIVE ================================================= */
   /* Tablet */
   @media (max-width: 1024px) {
   hr{
     width: 90%;
   }
-
   /* ===== HERO SECTION ===== */
   .hero p {
     font-size: 2rem;
