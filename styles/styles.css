@@ -1022,6 +1022,12 @@
   float: right;
 }
 
+
+
+[data-aos] {
+  will-change: transform, opacity;
+}
+
 /* @media (max-width: 1024px) {
   body{
     background-color: #006397;
